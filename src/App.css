@@ -1,0 +1,138 @@
+:root{
+
+    --speed:4s;
+    --speedc:0.1s;
+
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    overflow-y:hidden;   
+}
+
+.night{
+    
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid black;
+    margin: 5rem auto;
+    background: url(assets/Img_1.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+
+    ;
+}
+.surface{
+    height: 140px;
+    width: 500%;
+    background: url(./assets/Img_02.png);
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: repeat-x ;
+    animation: moveRight var(--speed) linear infinite;
+
+}
+.car{
+    position: absolute;
+    bottom: 50px;
+    left: 190px;
+    animation: suspension 1s linear infinite;
+}
+
+.charkh1{
+
+    position: absolute;
+    bottom: 45px;
+    left: 210px;
+
+    animation: rotation var(--speedc) linear infinite;
+
+}
+
+.charkh2{
+
+    position: absolute;
+    bottom: 45px;
+    left: 303px;
+
+    animation: rotation var(--speedc) linear infinite;
+}
+
+.buttonh {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #cf1901;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .buttonm {
+    margin-top: 2%;  
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+    background-color: #31cf01; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 10%;
+  }
+
+  .buttonl {
+    margin-top: 2%;  
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0195cf; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .c{
+      align-items: center;
+      align-content: center;
+  }
+
+
+/*Animation*/
+
+@keyframes moveRight{
+    100%{transform: translateX(-2950px)}
+}
+  
+@keyframes suspension {
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+
+@keyframes rotation {
+     0% { transform: rotate(0deg) }
+     100% { transform: rotate(45deg) }
+     }
