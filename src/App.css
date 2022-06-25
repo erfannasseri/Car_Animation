@@ -64,9 +64,11 @@ body{
 }
 
 .buttonh {
+    cursor: pointer;
+    position: relative;
     margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #cf1901;
     border: none;
     color: white;
@@ -76,12 +78,20 @@ body{
     display: inline-block;
     font-size: 16px;
   }
+  .buttonh:hover {
+    background-color: #ffffff; 
+    color: #cf1901;
+    border-radius: 10px;
+  }
+  .buttonh:active {
+    transform: translateY(4px);
+  }
 
   .buttonm {
-    margin-top: 2%;  
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;  
+    margin-left: 2%;
+    margin-right: 2%;
     align-content: center;
     background-color: #31cf01; 
     border: none;
@@ -93,11 +103,20 @@ body{
     font-size: 16px;
     bottom: 10%;
   }
+  .buttonm:hover {
+    background-color: #ffffff; 
+    color: #31cf01;
+    border-radius: 10px;
+  }
+  .buttonm:active {
+    transform: translateY(4px);
+  }
 
   .buttonl {
+    position: relative;
     margin-top: 2%;  
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #0195cf; 
     border: none;
     color: white;
@@ -107,10 +126,44 @@ body{
     display: inline-block;
     font-size: 16px;
   }
+  .buttonl:hover {
+    background-color: #ffffff; 
+    color: #0195cf;
+    border-radius: 10px;
+  }
+  .buttonl:active {
+    transform: translateY(4px);
+  }
+
+  .buttonli {
+    position: relative;
+    margin-top: 2%;  
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #fad900; 
+    border: none;
+    color: rgb(251, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .buttonli:hover {
+    background-color: #000000; 
+    color: #fad900;
+    border-radius: 10px;
+  }
+  .buttonli:active {
+    transform: translateY(4px);
+  }
 
   .c{
-      align-items: center;
-      align-content: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
 
 
