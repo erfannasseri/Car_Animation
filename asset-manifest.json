@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Car_Animation/static/css/main.4256082a.css",
+    "main.js": "/Car_Animation/static/js/main.eefa3cb4.js",
+    "static/media/Img_1.png": "/Car_Animation/static/media/Img_1.b20177c5f4518f1b941a.png",
+    "static/media/car 2.png": "/Car_Animation/static/media/car 2.ffbc477a6c111860e34f.png",
+    "static/media/car 1.png": "/Car_Animation/static/media/car 1.e16d2042eacc39721f9e.png",
+    "index.html": "/Car_Animation/index.html",
+    "main.4256082a.css.map": "/Car_Animation/static/css/main.4256082a.css.map",
+    "main.eefa3cb4.js.map": "/Car_Animation/static/js/main.eefa3cb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4256082a.css",
+    "static/js/main.eefa3cb4.js"
+  ]
+}
