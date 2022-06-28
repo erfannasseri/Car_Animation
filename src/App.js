@@ -17,7 +17,7 @@ const App = () => {
     return(
     <div>
         
-        <div >
+        <div className="c">
 
                <button className="buttonh" onClick={()=> setSpeed('1.5s')}>High Speed</button>
                <button className="buttonm" onClick={()=> setSpeed('3s')}>Medium Speed</button>
